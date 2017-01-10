@@ -14,3 +14,12 @@ setTimeout(function(){
 // 		state: 'CA'
 // 	}
 // }
+// document.write("Customer : " + customer.speak() + "<br />")
+
+// document.write("Customer : " + customer.name + " lives at " + customer.address.street + "<br />")
+
+// 	//add props
+
+// customer.address.country = 'US'
+
+// document.write(customer.address.country + "<br />")
