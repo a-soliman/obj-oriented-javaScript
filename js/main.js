@@ -34,3 +34,11 @@ setTimeout(function(){
 // 		return this.name + " Lives at " + this.street;
 // 	}
 // }
+
+// var bobSmith = new Person('Bob Smith', '234 Main st')
+
+// document.write(bobSmith.info() + "<br />")
+
+// 	// check the objec of a spesific type
+
+// document.write('Bob is a Person : ' + (bobSmith instanceof Person) + "<br />")
