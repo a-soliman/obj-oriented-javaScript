@@ -23,3 +23,14 @@ setTimeout(function(){
 // customer.address.country = 'US'
 
 // document.write(customer.address.country + "<br />")
+
+// 	// Construction function
+
+// function Person(name, street) {
+// 	this.name = name;
+// 	this.street = street;
+
+// 	this.info = function() {
+// 		return this.name + " Lives at " + this.street;
+// 	}
+// }
