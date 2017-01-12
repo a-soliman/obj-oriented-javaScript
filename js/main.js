@@ -109,3 +109,34 @@ setTimeout(function(){
 // 	}
 // 	return false;
 // }
+// var sampArray = [1,2,3,4,5];
+
+// document.write("3 in Array : " + sampArray.inArray(3) + "<br />")
+
+	// securing the props by making them vars inside the constructor
+
+// function SecretCode() {
+// 	var secretNum = 78;
+
+// 	this.guessNum = function(num) {
+// 		if(num > 78) {
+// 			return "Lower!"
+// 		} else if(num < 78) {
+// 			return "Higher!"
+// 		} else {
+// 			return "You Guessed it :)"
+// 		}
+// 	}
+// }
+
+// var secret = new SecretCode();
+
+// document.write("Value of secretNum : " + secret.secretNum + "<br />")
+
+// document.write("Is 70 the number ? ==> " + secret.guessNum(70) + "<br />")
+
+// SecretCode.prototype.getSecret = function() {
+// 	return this.secretNum
+// }
+
+// document.write("The Secret Number is " + secret.getSecret() + "<br />")
