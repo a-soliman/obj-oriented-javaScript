@@ -60,3 +60,20 @@ setTimeout(function(){
 // document.write("Are they equal : "+ (person1 === person2) + "<br />")
 
 //==============================================================================
+
+// === prototypes ===
+
+// function getSum(num1, num2) {
+// 	return num1 + num2
+// }
+
+// document.write("Num of arguments : " + getSum.length + "<br />")
+
+// 	//== adding props and methods to an obj
+
+// function Mammal(name) {
+// 	this.name = name;
+// 	this.getInfo = function() {
+// 		return "The mammals name is : " + this.name; 
+// 	}
+// }
