@@ -42,3 +42,21 @@ setTimeout(function(){
 // 	// check the objec of a spesific type
 
 // document.write('Bob is a Person : ' + (bobSmith instanceof Person) + "<br />")
+
+// 	// passing an object to a function and changing its props:
+
+// function changeName(person) {
+// 	person.name = "Sue Smith"
+// }
+
+// changeName(bobSmith)
+
+// document.write("Bob became : " + bobSmith.name + "<br />")
+
+// 	// 
+// var person1 = new Person('Paul', '123Main');
+// var person2 = new Person('Paul', '123Main');
+
+// document.write("Are they equal : "+ (person1 === person2) + "<br />")
+
+//==============================================================================
