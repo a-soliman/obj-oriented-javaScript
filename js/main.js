@@ -77,3 +77,19 @@ setTimeout(function(){
 // 		return "The mammals name is : " + this.name; 
 // 	}
 // }
+
+// Mammal.prototype.sound = "Grrrr";
+
+// Mammal.prototype.makeSound = function() {
+// 	return this.name + " says " + this.sound
+// }
+
+// var grover = new Mammal("Grover")
+
+// document.write(grover.makeSound() + "<br />")
+
+// 	//listing all the props of an object
+
+// for(var prop in grover) {
+// 	document.write(prop + " : " + grover[prop] + "<br />")
+// }
