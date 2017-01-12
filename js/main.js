@@ -93,3 +93,19 @@ setTimeout(function(){
 // for(var prop in grover) {
 // 	document.write(prop + " : " + grover[prop] + "<br />")
 // }
+
+// 	//varify for a prop of the prototype of an obj
+
+// document.write("name property of grover : " + grover.hasOwnProperty("name") + "<br />")
+// document.write("sound property of grover : " + grover.hasOwnProperty("sound") + "<br />")
+
+	// creating a function to search within the array
+
+// Array.prototype.inArray = function inArray(value) {
+// 	for(var i = 0; i < this.length ; i++) {
+// 		if(this[i] === value) {
+// 			return true;
+// 		}
+// 	}
+// 	return false;
+// }
