@@ -227,3 +227,30 @@ setTimeout(function(){
 // circ.radius = 15;
 
 // document.write('A circle with radius : ' + circ.radius + " has an area of : " +circ.area.toFixed(2) + "<br />")
+
+// Inhirtence in JS
+function Animal() {
+	this.name = "Animal";
+
+	this.toString = function() {
+		return "My name is " + this.name;
+	}
+}
+
+function Canine() {
+	this.name = "Canine";
+}
+
+function Wolf() {
+	this.name = "Wolf"
+}
+
+Canine.prototype = new Animal()
+Wolf.prototype = new Animal()
+
+Canine.prototype.constructor = Canine;
+Wolf.prototype.constructor = Wolf;
+
+var arcticWolf = new Wolf();
+
+document.write( arcticWolf.toString() + "<br />")
