@@ -2,6 +2,7 @@ setTimeout(function(){
    window.location.reload(1);
 }, 1000);
 
+
 // var customer =  {
 // 	name: "John Smith",
 // 	speak: function() {
@@ -14,6 +15,7 @@ setTimeout(function(){
 // 		state: 'CA'
 // 	}
 // }
+
 // document.write("Customer : " + customer.speak() + "<br />")
 
 // document.write("Customer : " + customer.name + " lives at " + customer.address.street + "<br />")
@@ -24,6 +26,7 @@ setTimeout(function(){
 
 // document.write(customer.address.country + "<br />")
 
+// //===========================================================================
 // 	// Construction function
 
 // function Person(name, street) {
@@ -60,8 +63,7 @@ setTimeout(function(){
 // document.write("Are they equal : "+ (person1 === person2) + "<br />")
 
 //==============================================================================
-
-// === prototypes ===
+	// === prototypes ===
 
 // function getSum(num1, num2) {
 // 	return num1 + num2
@@ -109,6 +111,7 @@ setTimeout(function(){
 // 	}
 // 	return false;
 // }
+
 // var sampArray = [1,2,3,4,5];
 
 // document.write("3 in Array : " + sampArray.inArray(3) + "<br />")
@@ -141,6 +144,8 @@ setTimeout(function(){
 
 // document.write("The Secret Number is " + secret.getSecret() + "<br />")
 
+//========================================================================
+
 	// === getters and seters ===
 
 // var address = {
@@ -159,6 +164,7 @@ setTimeout(function(){
 // 		this.state = parts[2] || "";
 // 	}
 // }
+
 // address.setAddress = "123 main st, San Fran, CA"
 
 // document.write("Address : " + address.getAddress + "<br />")
@@ -185,6 +191,7 @@ setTimeout(function(){
 
 // document.write("Coordinates : " + testCoords.getCoords + "<br />")
 
+
 //======================================================================
 	// === creating Getters and Setters using "define properity"
 
@@ -210,7 +217,8 @@ setTimeout(function(){
 
 // document.write("point Position " + aPoint.pointPos + "<br />")
 
-// creating getter and setter bassed on ECMA Script 5.1v
+//==========================================================================
+	// creating getter and setter bassed on ECMA Script 5.1v
 
 // var Circle = function(radius) {
 // 	this._radius = radius
@@ -228,7 +236,9 @@ setTimeout(function(){
 
 // document.write('A circle with radius : ' + circ.radius + " has an area of : " +circ.area.toFixed(2) + "<br />")
 
-// Inhirtence in JS
+//===========================================================================
+
+	// Inhirtence in JS
 function Animal() {
 	this.name = "Animal";
 
