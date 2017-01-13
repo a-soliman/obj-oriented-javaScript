@@ -159,3 +159,12 @@ setTimeout(function(){
 // 		this.state = parts[2] || "";
 // 	}
 // }
+// address.setAddress = "123 main st, San Fran, CA"
+
+// document.write("Address : " + address.getAddress + "<br />")
+// document.write("city : " + address.city + "<br />")
+
+// function Coordinates() {
+// 	this.latitude = 0;
+// 	this.longitude = 0;
+// }
